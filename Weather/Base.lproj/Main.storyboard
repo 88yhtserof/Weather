@@ -25,11 +25,14 @@
                                 <rect key="frame" x="157" y="132" width="100.5" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="날씨 가져오기"/>
+                                <connections>
+                                    <action selector="tapFetchWeatherButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bm6-2g-fzC"/>
+                                </connections>
                             </button>
                             <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="HwR-Y1-tXC">
                                 <rect key="frame" x="24" y="213" width="366" height="143.5"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="eQT-Xx-SPA">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="eQT-Xx-SPA">
                                         <rect key="frame" x="161.5" y="0.0" width="43.5" height="62"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="서울" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0of-yo-YDq">
@@ -39,7 +42,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="맑음" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TPr-ZC-99V">
-                                                <rect key="frame" x="0.0" y="38" width="43.5" height="24"/>
+                                                <rect key="frame" x="4" y="38" width="35" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -90,6 +93,14 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HwR-Y1-tXC" secondAttribute="trailing" constant="24" id="zgX-Wa-Q2p"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cityNameLabel" destination="0of-yo-YDq" id="mZb-Fq-blh"/>
+                        <outlet property="cityNameTextField" destination="Zdw-aP-7hj" id="5EB-2s-Ncl"/>
+                        <outlet property="maxTempLabel" destination="KJp-d5-12A" id="Oj3-rG-PWC"/>
+                        <outlet property="minTempLabel" destination="1V3-OQ-inz" id="ASp-KV-7hT"/>
+                        <outlet property="tempLabel" destination="q2B-6Y-IYd" id="xg9-AF-LDk"/>
+                        <outlet property="weatherDescriptionLabel" destination="0of-yo-YDq" id="5zb-Og-Vql"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
