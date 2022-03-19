@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A41F65927E5FD3500DF9227 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A41F65827E5FD3500DF9227 /* ErrorMessage.swift */; };
 		9A6F7CF327E222FE00BF743A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6F7CF227E222FE00BF743A /* AppDelegate.swift */; };
 		9A6F7CF527E222FE00BF743A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6F7CF427E222FE00BF743A /* SceneDelegate.swift */; };
 		9A6F7CF727E222FE00BF743A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6F7CF627E222FE00BF743A /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A41F65827E5FD3500DF9227 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		9A6F7CEF27E222FE00BF743A /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7CF227E222FE00BF743A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A6F7CF427E222FE00BF743A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				9A6F7CFD27E222FF00BF743A /* LaunchScreen.storyboard */,
 				9A6F7D0027E222FF00BF743A /* Info.plist */,
 				9A88E34E27E353D000EB91B2 /* WeatherInformation.swift */,
+				9A41F65827E5FD3500DF9227 /* ErrorMessage.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				9A6F7CF727E222FE00BF743A /* ViewController.swift in Sources */,
 				9A88E34F27E353D000EB91B2 /* WeatherInformation.swift in Sources */,
+				9A41F65927E5FD3500DF9227 /* ErrorMessage.swift in Sources */,
 				9A6F7CF327E222FE00BF743A /* AppDelegate.swift in Sources */,
 				9A6F7CF527E222FE00BF743A /* SceneDelegate.swift in Sources */,
 			);
